@@ -62,5 +62,4 @@ Tracker.autorun(() =>{
   }else if(isAuthedPage && !isAuthenticated){
     browserHistory.replace('/');
   }
-  console.log('Authed?',isAuthenticated);
 });
